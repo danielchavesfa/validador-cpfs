@@ -38,8 +38,27 @@ input {
     border-color: gold;
     outline-color: gold;
     border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input.erro {
+    border-color: red;
+}
+
+input.valido {
+    border-color: green;
 }
 
 input::placeholder {
     color: #ccc;
+}
+
+.erro-text {
+    display: none;
+    margin: 10px 0;
+    color: red;
+}
+
+.erro-text.show {
+    display: block;
 }
